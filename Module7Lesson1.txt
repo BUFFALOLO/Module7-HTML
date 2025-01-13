@@ -1,0 +1,78 @@
+LESSON 1 - HTML BASICS & DOCUMENT structure
+
+HTML: HyperText Markup language
+
+Tags: Tags tell the browser how to show the content. (<p> </p>)
+Elements: Complete instructions in the script. (the content in between the tags)
+Attributes: Provide additional information about elements which reside in the opening tag. (<img src="stage.jpg" alt-"Theater stage" - src & alt are attributes)
+
+Not all tags require a closing tag, for example img or <br> for breaks
+
+<!DOCTYPE html> is positioned at the top of your HTML document, it signifies the type of document to be showcased. It's similar to telling the browser, "Get ready, an HTML5 performance is starting!".
+This ensures the browser interprets the page as an HTML5 document.
+
+After the DOCTYPE declaration, you encounter the <html> tag. Think of this tag as swinging open the majestic doors of a theater - it signifies the start & conclusion of your HTML document.
+It wraps around everything in your webpage, from the metadata in the head to the content in the body.
+
+Inside the <html> tag, we have the <head> section. It gives important info about the document, not the actual content. In the <head>, there's metadata, such as <title>, which is the name of the document.
+This name appears in the browser's title bar or tab. The head can also hae links to stylesheets, and scripts.
+
+The core of your HTML document is the <body> section, where all the content resides. Everything that the website users, interacts with, text, images, videos, links, buttons, etc., is placed here. 
+The body is where your website springs to life.
+
+UNDERSTANDING & USING META TAGS
+In web development, think of meta tags in HTML like the playbill you get before a show. They provide important details about the performance but are not visible to the audience (website users).
+Instead, they act as guides for search engines & browsers to understand & display the content effectively.
+
+Let's enhance our "Hello World" HTML page by adding some meta tags to the <head> section. These won't alter what's visible on the website's body but they'll improve the page's behind-the-scenes details.
+Meta tags in the <head> section offer essential information to browsers and search engines:
+
+    Charset: Specifies the character encoding for the HTML document, ensuring correct character display.
+    Viewport: Crucial for responsive design, ensuring proper display on all devices.
+    Description: A concise summary of the page's content, crucial for SEO.
+    Keywords: Helps search engines understand the main topics of your page.
+    Author: Credits the creator of the HTML document.
+
+BASIC HTML ELEMENTS
+Fundamental HTML elements play a role similar to props, characters, & script notes in a theatrical production, infusing life into the play on stage. They add structure, emphasis & detail to our digital theater,
+enhancing the performance (web content) to be more engaging & accessible. 
+
+In HTML, headings serve as scene titles in a play, delineating various sections & topics. Spanning from <h1> as the main title to <h6> as the least significant, they establish a hierarchy of importance.
+Paragraphs, identified by <p>, function as the dialogues or monologues in our script. They make up the majority of the content, delivering the message to the audience (the users).
+
+Formatting tags like <b> (bold), <strong> (important bold), <i> (italic), and <em> (emphasized italic) act as stage directions, guiding actors on how to deliver their lines. These tags
+contribute emphasis & tone to our web content.
+
+HTML lists resemble well-organized bullet points or numbered steps in a script. Unordered lists (<ul>) employ bullet points, comparable to listing props or actors. In contrast, ordered lists (<ol>)
+use numbers, resembling a step-by-step guide for scene changes. Each item in the list is denotes by a <li> (list item) tag.
+
+Hyperlinks, created with an <a>, are like stage doorways guiding the audience to different scenes. Images, marked with <img>, add visuals to the stage, enhancing storytelling.
+    href attribute: Used in <a>, href is like creating a portal to other scenes or places.
+    <a href="https://example.com">Visit our site</a>
+
+    src attribute: In <img>, src sets the background scenery, specifying where to find the image.
+    <img src="stage.jpg">
+
+    alt attribute: alt in <img> is an image understudy. If the image can't be shown, alt provide alternative text, ensuring the message is still conveyed.
+    <img src="stage.jpg" alt="Theater stage">
+
+The <br> tag is similar to a pause in an actor's speech, initiating a new line without commencing a new paragraph.
+On the other hand, the <hr> tag, symbolizing a horizontal rule, acts as a scene divider, introducing a visual break in the content.
+
+Special characters, such as &amp for the ampersand symbol, serve as HTML's special effects, introducing distinctive elements to the text. 
+HTML comments, structured as <!-- Comment -->, act as backstage notes, hidden from the audience but valuable for developers.
+
+BEST PRACTICES & COMMON PITFALLS IN BASIC HTML development
+Following these guidelines & learning from cautionary tales can assist both novice & seasoned developers in ensuring that their HTML script not only establishes the stage effectively but also captivates the audience (the users) seamlessly.
+
+1. Proper Document Structure: Begin with <!DOCTYPE html> & structure with <html>, <head>, & <body> tags.
+2. Semantic HTML: Use tags for their intended purposes (e.g., <p> for paragraphs, <h1> to <h6> headings, <a> for links).
+3. Alt Text for Images: Always add alt attributes in <img> tags. It aids accessibility & SEO.
+4. Descriptive Titles & Meta Descriptions: Employ meaningful titles in <title>, & clear meta descriptions for user understanding.
+5. Responsive Design: Implement responsive techniques, including the viewport meta tag, for a user-friendly experience across devices.
+
+1. Neglecting Meta Tags: Skipping or misconfiguring meta tags (e.g., charset, viewport, description & keywords) can harm your page's functionality & SEO, leaving users & search engines in the dark.
+2. Improper Heading Use: Misusing heading tags (<h1> to <h6>) disrupts webpage structure & accessibility. Overusing <h1> tags or disregarding logical order is confusing.
+3. Omitting Closing Tags: Forgetting to close tags, especially in non-self-closing elements, results in unexpected layout & styling issues. 
+4. Incorrect Link Usage: Misusing the <a> tag, linking to broken URLs or incorrect href attributes, leads to a poor user experience.
+5. Media Not Optimized: Using large, unoptimized images or media files slows down your website, negatively impacting user experience. 
