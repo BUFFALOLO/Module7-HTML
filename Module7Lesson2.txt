@@ -1,0 +1,93 @@
+ADVANCED TEXT HTML ELEMENTS - HTML ELEMENTS FOR CONTENT & LAYOUT
+
+<table> - creates the shelf
+<th> used for headers like category labels
+<tr> - defines the rows 
+<tdr> represents the individual cells
+
+Tables are versatile tools in web development offering a structured way to present various data, from financial reports to gaming leaderboards.
+They provide clarity & organization, making information readily accessible & comprehensible. 
+
+<blockquote> - used for longer quotes
+<q> - used for shorter, inline quotations
+
+Quotations are the memorable dialogues of your content, offering authority, perspective, or wisdom. They leave a lasting impression, akin to memorable lines from a movie.
+For example, incorporating testimonials from colleagues or supervisors can personalize your resume.
+
+<code> - used for inline code ELEMENTS
+<pre> - preserves formatting, which is ideal for larger code blocks
+
+For any tech-related site, code snippets are essential. They're like the step-by-step instructions in a DIY manual, helping users understand & follow along. 
+If your work involves coding, displaying snippets can effectively showcase your expertise.
+
+MULTIMEDIA ELEMENTS
+By integrating multimedia components, you're not only narrating your tale but presenting it vividly with vibrant visuals & immersive sound. Let's emphasize the inclusion of images, audio & video,
+including techniques for seamlessly integrating YouTube videos, to enhance the appeal of your online presence to its fullest potential.
+
+<img> - allows you to embed images that reflect your professional persona, projects, or achievements.
+HTML - allows you to add images
+CSS - Cascading Style Sheets enables you to integrate images into your resume's design, adjusting their size, alignment, & responsiveness to different screen sizes.
+
+SEMANTIC HTML5
+Semantic elements are essential as they clarify the intent of the content they enclose, simplifying comprehension for both web browsers & human users.
+Additionally, they:
+    Aid in search engines indexing the page content.
+    Enhance Search Engine Optimization (SEO).
+    Facilitate interpretation by screen readers.
+    Improve accessibility for visually impaired users.
+
+Common Semantic Elements 
+    <header> - This tag acts as the introduction to your page or section of it. It often contains the navigation bar, logos & introductory content
+    <footer> - Houses contact information, copyright notices, & links to legal information or related documents.
+    <article> - This element is used for sel-contained composition in a document, page, or site, which is intended to be independently distributable or reusable, such as blog posts or news articles.
+    <section> - A section groups related content together. It could be chapters, header, footers, or any other sections of the document.
+    <nav> - Short for navigation, this element guides the audience through the web page's different scenes or sections.
+    <aside> - This tag is used for tangentially related content, similar to a sidebar conversation, that complements the main content, like related links, biographies or advertisements.
+
+OTHER HTML5 ELEMENTS
+HTML5 has introduced a variety of elements that allow for more descriptive document structure & clearer code semantics.
+
+<figure> - This element is used to represent self-contained content, often referenced as a single unit from the main flow of the document. This could include images, diagrams, code snippets, etc.
+Accompanied by the <figcaption> element, it allows for a caption or description to be directly associated with the <figure>.
+
+Example Integration:
+Let's add a <figure> element to showcase a project screenshot within the Recent Projects section, with a <figcaption> to describe it.
+
+<section>
+    <h2>Recent Projects</h2>
+    <figure>
+        <img src="website_redesign_screenshot.jpg" alt="Screenshot of Website Redesign">
+        <figcaption>Fig.1 - Screenshot of the Website Redesign Project.</figcaption>
+    </figure>
+</section>
+
+<main> - This element represents the dominant content of the <body> of a document. It is intended for the content that is directly related to or expands upon the central topic of a document, 
+excluding content repeated across pages like headers & footers.
+
+Example Integration:
+Integrating <main> into our resume to encapsulate the core content
+
+<body>
+    <header>...</header>
+    <main>
+        <!-- All sections like skills, education, work experience go here -->
+    </main>
+    <footer>...</footer>
+</body>
+
+BEST PRACTICES
+Choose the Right Tag for the Job: Ensure you use the appropriate text elements (<strong>, <em>, <blockquote>, etc.) to convey the right emphasis & structure.
+Keep Accessibility in Mind: Use markup that enhances readability & structure, such as headings (<h1> through <h6>) & lists (<ul>,<ol>)
+Optimize Media Files: Optimize images, audio & video for web use to ensure fast load times & smooth playback.
+Provide Alternatives: Offer captions, transcripts, & alt text for multimedia content, making your site more accessible & inclusive.
+Structure Content Logically: Use semantic elements (<header>, <footer>, <article>, <section>, etc.) to structure your content meaningfully.
+Use Landmark Roles: These roles help screen reader users navigate your site more easily.
+
+COMMON PITFALLS
+Overuse of Styling Elements for Layout: Using <br> for spacing or <b> for headings instead of CSS and semantic.
+Ignoring Hierarchial Structure: Skipping heading levels or using them inconsistently.
+Autoplaying Videos or Audio: Autoplay can be intrusive & annoying for web users, especially if they can't easily find the controls.
+Using Non-Responsive Media: Failing to make multimedia content responsive can break the layout on mobile devices.
+Overlooking Document Outline: Ignoring the new HTML5 structural elements can lead to a confusing & poorly structured document outline.
+Misusing Sections & Articles: Using <section> or <article> interchangeably without understanding their purpose.
+
